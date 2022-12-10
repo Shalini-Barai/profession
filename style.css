@@ -1,0 +1,25 @@
+body{
+    margin-left:100px;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+.box{
+    border:2px solid white;
+    height: 30px;
+    display:flex;
+    margin-top: 20px;
+    border-radius: 10px;
+    align-items: center;
+    width:700px;
+}
+.box p{
+    margin-right: 50px;
+    margin-left: 15px;
+}
+#btn{
+    width:90px;
+    height:30px;
+    font-size: 20px;
+}

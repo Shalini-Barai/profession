@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Profession</title>
+</head>
+<body>
+    <h3>Filter ui cards via their profession</h3>
+    <form>
+        <select name="pro" id="prof">
+            <option>Profession </option>
+          <option value="admin" id="adm">Admin</option>
+          <option value="developer" id="dev">Developer</option>
+        </select><br>
+        <div class="box">
+           <p id="id1"></p>
+            <p>Name:<span style="margin:0px;" id="name1"></span></p>
+            <p>Profession:<span style="margin:0px;" id="profession1"></span></p>
+            <p>Age:<span style="margin:0px;" id="age1"></span></p>
+        </div>
+        <div class="box">
+            <p id="id2"></p>
+            <p>Name:<span style="margin:0px;" id="name2"></span></p>
+            <p>Profession:<span style="margin:0px;" id="profession2"></span></p>
+            <p>Age:<span style="margin:0px;" id="age2"></span></p>
+        </div>
+        <div class="box">
+            <p id="id3"></p>
+            <p>Name:<span style="margin:0px;" id="name3"></span></p>
+            <p>Profession:<span style="margin:0px;" id="profession3"></span></p>
+            <p>Age:<span style="margin:0px;" id="age3"></span></p>
+        </div><br><br>
+        <button id="btn" onclick="return validate()">Filter</button>
+      </form>
+      <script src="./script.js"></script>
+</body>
+</html>
